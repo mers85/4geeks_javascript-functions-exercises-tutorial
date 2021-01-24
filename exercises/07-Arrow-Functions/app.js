@@ -1,7 +1,7 @@
 const rapid = (string) => {
-    var str = string.toLowerCase();
-    var consonants = str.match(/[^aeiou]/gi);
-    var onlyConsonants = "";
+    let str = string.toLowerCase();
+    let consonants = str.match(/[^aeiou]/gi);
+    let onlyConsonants = "";
 
    //var xx = string.replace(/[aeiou]/ig,'').toUpperCase();
 

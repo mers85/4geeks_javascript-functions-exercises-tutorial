@@ -8,7 +8,7 @@ var euroToYen = function(euroValue){
 
 var dollarToYen = function(dollarValue){
     let euro = dollarToEuro(dollarValue);
-    var yen = euroToYen(euro);
+    let yen = euroToYen(euro);
     return yen;
 }
 

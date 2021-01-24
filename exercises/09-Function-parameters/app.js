@@ -1,7 +1,7 @@
 // Your code goes here:
 function renderPerson(name,birthdate,eyescolor,age,genre){
     let ageString = age.toString();
-    var result = name + ' ' + 'is a ' + ageString + ' years old' + ' ' + genre + ' born on ' + birthdate + ' with ' + eyescolor + ' eyes'
+    let result = name + ' ' + 'is a ' + ageString + ' years old' + ' ' + genre + ' born on ' + birthdate + ' with ' + eyescolor + ' eyes'
     return result;
 }
 
